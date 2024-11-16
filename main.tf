@@ -1,3 +1,9 @@
+# Altantis Example 
+
+resource "null_resource" "example" {}
+
+
+
 # Data sources
 ## Ubuntu AMI for all K8s instances
 data "aws_ami" "ubuntu" {
